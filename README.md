@@ -9,7 +9,7 @@ Setup
 ```bash
     git clone https://github.com/mikopet/configs.git
 ```
- 3. run `sh configs/setup.sh`
+ 3. run `./configs/setup.sh`
  4. ???
  5. Profit
 

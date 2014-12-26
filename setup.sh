@@ -2,13 +2,15 @@
 
 echo "Mikopet's bash environment setup"
 
+git clone git://gist.github.com/1630581.git ~/.fonts/ttf-dejavu-powerline
+
 cd configs
 
 git submodule update --init
 
 cd ..
 
-array=(bashrc inputrc screenrc vimrc profile selected_editor environment aliases root.bashrc)
+array=(bashrc inputrc screenrc vimrc profile selected_editor environment aliases)
 
 for index in ${!array[*]}
 do
@@ -20,7 +22,6 @@ do
     echo "OK"
 done
 
-
 rm -rf .config
 rm -rf .vim
 
@@ -29,13 +30,11 @@ ln -s configs/dotvim .vim
 
 echo "vim and config DIR is OK too"
 
-mv .root.bashrc root.bashrc
-
 cd configs
 
 git config --global user.name "Mikola Peter"
 git config --global user.email mikopet@gmail.com
-git config --global core.excludesfile configs/ignore-patterns
+git config --global core.excludesfile ignore-patterns
 git config --global color.ui true
 git config --global help.autocorrect 20 # Fix typos automatically
 
@@ -44,3 +43,7 @@ git submodule update --init --merge
 
 git submodule foreach git pull
 
+echo "git done
+
+echo "Done. exit.
+"
