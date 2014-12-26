@@ -43,7 +43,6 @@ git submodule update --init --merge
 
 git submodule foreach git pull
 
-echo "git done
+echo "git done"
 
-echo "Done. exit.
-"
+echo "Done. exit."
