@@ -132,10 +132,10 @@ fi
 PS1="\[\e[37m\]\A\[\e[0m\] \
 ${debian_chroot:+($debian_chroot)}\
 $connection_color\u@\h\[\e[0m\] \
-\[\e[1;34m\]\w\[\e[0m\]"
+\[\e[1;37m\]\w\[\e[0m\]"
 # Check if __git_ps1 exists.
 if type -t __git_ps1 > /dev/null ; then
-PS1=$PS1'\[\e[1;35m\]$(__git_ps1 " %s")\[\e[0m\]\$ '
+PS1=$PS1'\[\e[1;96m\]$(__git_ps1 " %s")\[\e[0m\]\$ '
 else
 PS1=$PS1'\[\e[0m\]\$ '
 fi
