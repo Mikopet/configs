@@ -10,7 +10,7 @@ git submodule update --init
 
 cd ..
 
-array=(bashrc inputrc screenrc vimrc profile selected_editor environment aliases)
+array=(bashrc inputrc screenrc vimrc profile selected_editor environment bash_aliases)
 
 for index in ${!array[*]}
 do
