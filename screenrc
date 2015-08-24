@@ -336,7 +336,7 @@
 
 # Uncomment one/some following lines to automatically let
 # SCREEN start some programs in the given window numbers:
-screen -t MAIL        0 mutt
+# screen -t MAIL        0 mutt
 # screen -t EDIT        1 vim
 # screen -t GOOGLE      2 links http://www.google.com
 # screen -t NEWS        3 slrn
@@ -357,8 +357,4 @@ screen -t MAIL        0 mutt
 hardstatus alwayslastline
 hardstatus string '%{gk}[ %{G}%H %{g}][%= %{wk}%?%-Lw%?%{=b kR}(%{W}%n*%f %t%?(%u)%?%{=b kR})%{= kw}%?%+Lw%?%?%= %{g}][%{Y}%l%{g}]%{=b C}[ %m/%d %c ]%{W}'
 
-screen -t ROOT           0 sudo su
-screen -t SC1           0 bash
-screen -t SC2           0 bash
-screen -t SC3           0 bash
-screen -t SC4           0 bash
+screen -t default           0 bash
