@@ -21,4 +21,6 @@ if [ -d "$HOME/bin" ] ; then
     PATH="$HOME/bin:$PATH"
 fi
 
-if [ -z "$STY" ]; then exec screen -DRR -U; fi
+# if [ -z "$STY" ]; then exec screen -DRR -U; fi
+
+export IBUS_ENABLE_SYNC_MODE=1
