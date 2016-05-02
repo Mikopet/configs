@@ -15,3 +15,5 @@ alias grep='grep --color=auto'
 alias clive='clive --format=best'
 
 alias install-symfony='SENSIOLABS_ENABLE_NEW_DIRECTORY_STRUCTURE=true composer create-project symfony/framework-standard-edition .'
+
+alias apt-all='sudo apt-get update && sudo apt-get dist-upgrade && sudo apt-get autoremove && sudo apt-get autoclean'

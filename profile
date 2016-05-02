@@ -22,3 +22,7 @@ if [ -d "$HOME/bin" ] ; then
 fi
 
 if [ -z "$STY" ]; then exec screen -DRR -U; fi
+
+export SENSIOLABS_ENABLE_NEW_DIRECTORY_STRUCTURE=true
+
+eval "$(thefuck --alias)"
