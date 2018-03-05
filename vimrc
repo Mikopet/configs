@@ -196,7 +196,7 @@ let g:localrc_filename=".localrc.vim"
 
 " textwidth: break lines when this maximum line length is reached (use 0 to
 " disable). This is sometimes called 'hard breaking', because it inserts an EOL.
-set tw=80
+set tw=100
 
 " wrapmargin: break lines when only 'wm' columns are left. Ignored if tw is set,
 " which is probably the proper one to use, since 'wm' would make line formatting

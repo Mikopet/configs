@@ -162,3 +162,7 @@ xterm*|rxvt*|konsole*)
 *)
 ;;
 esac
+
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
+
