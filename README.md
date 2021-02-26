@@ -2,6 +2,10 @@
 
 ### Requirements
 ```
+nvim
+fzf
+ripgrep
+nodejs :(
 ```
 
 ### Setup
