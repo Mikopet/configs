@@ -1,18 +1,14 @@
-Mikopet's .bashrc
-=================
+# Configuration for terminal based work
 
-Setup
------
-
- 1. Go to your `home` folder
- 2. git clone the repo to configs/
-```bash
-    git clone https://github.com/mikopet/configs.git
+### Requirements
 ```
- 3. run `./configs/setup.sh`
- 4. ???
- 5. Profit
+```
 
-Content
--------
+### Setup
 
+1.  Clone the repository somewhere (usually I use `~/Git/configs`)
+2. `make`
+
+### Settings
+
+ - Don't forget to set MC theme (`F9 > Options > Apperance`)
