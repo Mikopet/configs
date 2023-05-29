@@ -1,0 +1,3 @@
+alias ll='ls -lhaG'
+alias c='pygmentize -f terminal256 -O style=monokai -g'
+alias tvp='terraform validate && terraform plan'
