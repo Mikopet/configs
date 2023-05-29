@@ -1,0 +1,16 @@
+theme = "gruvbox"
+
+[editor]
+line-number = "relative"
+mouse = false
+bufferline = "multiple"
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[keys.normal]
+esc = ["collapse_selection", "keep_primary_selection"]
+tab = "goto_next_buffer"
+S-tab = "goto_previous_buffer"
